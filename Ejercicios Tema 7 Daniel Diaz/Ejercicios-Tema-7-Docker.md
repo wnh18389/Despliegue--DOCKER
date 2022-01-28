@@ -125,8 +125,6 @@ sudo docker run --detach --network nuevaRed --name bbdd --env MARIADB_USER=invit
 
 
 
-### 
-
 
 ## 3 - Carga de ficheros a GitHub
 
@@ -155,11 +153,46 @@ git push origin master
 
 
 
-### 3.2 - Carga de archivos de la práctica
+### 3.2- Carga de documentos de la práctica
+
+Añado a mi carpeta de trabajo los documentos que contienen la asignación de tareas y el Typora con los ejercicio inicial y de imágenes y servidor con base de datos:
+
+```bash
+git add .
+git status
+```
+
+![image-20220128094953514](Ejercicios-Tema-7-Docker.assets/image-20220128094953514.png)
+
+Hago el `commit` con todo lo nuevo en mi carpeta de trabajo:
+
+```bash
+git commit "Segundo commit con ejercicio 1 y 2 junto con asignacion de tareas"
+```
+
+![image-20220128095242400](Ejercicios-Tema-7-Docker.assets/image-20220128095242400.png)
 
 
 
-## 4 - Hipervínculos de la infografía utilizada:
+Cargo todos los documentos al Github remoto de mi compañero:
+
+```bash
+git remote add origin master https://github.com/wnh18389/Despliegue--DOCKER
+git remote -v
+git push origin master
+```
+
+![image-20220128100028912](Ejercicios-Tema-7-Docker.assets/image-20220128100028912.png)
+
+
+
+Comprobación de que todos los archivos cargaron correctamente:
+
+![image-20220128100109323](Ejercicios-Tema-7-Docker.assets/image-20220128100109323.png)
+
+
+
+## 4 - Links al hub del grupo y a la infografía utilizada:
 
 **[Github del grupo de clase](https://github.com/wnh18389/Despliegue--DOCKER)**
 
@@ -168,8 +201,6 @@ git push origin master
 [Dockerhub](https://hub.docker.com/_/mariadb)
 
 [Pull request](https://aprendegit.com/que-es-un-pull-request/)
-
-
 
 
 
