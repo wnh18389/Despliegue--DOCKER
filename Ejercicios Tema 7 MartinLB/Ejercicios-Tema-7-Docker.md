@@ -23,7 +23,7 @@ author: Martin Laviada Brun
    echo "<h1>HOLA SOY MARTIN</h1>" > index.html
    ```
 
-   ![image-20220131180607279](Ejercicios-Tema-7-Docker.assets\image-20220131180607279.png)
+   ![image-20220131180607279](Ejercicios-Tema-7-Docker.assets/image-20220131180607279.png)
 
 
 
@@ -33,7 +33,7 @@ author: Martin Laviada Brun
    docker run -d --name c1 -p 8181:80 -v ~/saludo:var/www/html php:7.4-apache
    ```
 
-   ![image-20220131181017125](\Ejercicios-Tema-7-Docker.assets\image-20220131181017125.png)
+   ![image-20220131181017125](\Ejercicios-Tema-7-Docker.assets/image-20220131181017125.png)
 
    ```bash
    docker run -d --name c2 -p 8282:80 -v ~/saludo:var/www/html php:7.4-apache
