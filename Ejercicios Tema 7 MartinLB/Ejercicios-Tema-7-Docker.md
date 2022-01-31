@@ -41,7 +41,7 @@ author: Martin Laviada Brun
 
    ![image-20220131181053669](Ejercicios-Tema-7-Docker.assets/image-20220131181053669.png)
 
-   ![lista c1 c2](Ejercicios-Tema-7-Docker.assets/lista c1 c2.PNG)
+   ![lista c1 c2](Ejercicios-Tema-7-Docker.assets/listac1c2.PNG)
 
    
 
@@ -107,7 +107,7 @@ author: Martin Laviada Brun
    docker login
    ```
 
-   ![login Docker](Ejercicios-Tema-7-Docker.assets/login Docker.PNG)
+   ![login Docker](Ejercicios-Tema-7-Docker.assets/loginDocker.PNG)
 
    
 
