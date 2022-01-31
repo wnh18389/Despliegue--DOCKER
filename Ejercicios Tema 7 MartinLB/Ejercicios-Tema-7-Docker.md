@@ -23,7 +23,7 @@ author: Martin Laviada Brun
    echo "<h1>HOLA SOY MARTIN</h1>" > index.html
    ```
 
-   ![image-20220131180607279](\Ejercicios-Tema-7-Docker.assets\image-20220131180607279.png)
+   ![image-20220131180607279](Ejercicios-Tema-7-Docker.assets\image-20220131180607279.png)
 
 
 
