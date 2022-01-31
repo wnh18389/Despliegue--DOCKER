@@ -23,7 +23,7 @@ author: Martin Laviada Brun
    echo "<h1>HOLA SOY MARTIN</h1>" > index.html
    ```
 
-   ![image-20220131180808696](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\image-20220131180808696.png)
+   ![image-20220131180607279](\Ejercicios-Tema-7-Docker.assets\image-20220131180607279.png)
 
 
 
@@ -33,21 +33,21 @@ author: Martin Laviada Brun
    docker run -d --name c1 -p 8181:80 -v ~/saludo:var/www/html php:7.4-apache
    ```
 
-   ![image-20220131181017125](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\image-20220131181017125.png)
+   ![image-20220131181017125](\Ejercicios-Tema-7-Docker.assets\image-20220131181017125.png)
 
    ```bash
    docker run -d --name c2 -p 8282:80 -v ~/saludo:var/www/html php:7.4-apache
    ```
 
-   ![image-20220131181053669](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\image-20220131181053669.png)
+   ![image-20220131181053669](\Ejercicios-Tema-7-Docker.assets\image-20220131181053669.png)
 
-   ![lista c1 c2](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\lista c1 c2.PNG)
+   ![lista c1 c2](\Ejercicios-Tema-7-Docker.assets\lista c1 c2.PNG)
 
    
 
    **Resultado:**
 
-   ![image-20220131181302673](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\image-20220131181302673.png)
+   ![image-20220131181302673](\Ejercicios-Tema-7-Docker.assets\image-20220131181302673.png)
 
 
 
@@ -57,23 +57,23 @@ author: Martin Laviada Brun
    mv ~/proyecto-git-remoto/* ~/saludo
    ```
 
-   ![image-20220131181415492](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\image-20220131181415492.png)
+   ![image-20220131181415492](\Ejercicios-Tema-7-Docker.assets\image-20220131181415492.png)
 
 
 
 4. Comprueba que puedes seguir accediendo a los contenedores, sin necesidad de reiniciarlos.
 
-   ![paginaCambiada](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\paginaCambiada-16436494563081.PNG)
+   ![paginaCambiada](\Ejercicios-Tema-7-Docker.assets\paginaCambiada-16436494563081.PNG)
 
 
 
 5. Borra los contenedores utilizados.
 
-   ![image-20220131181853752](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\image-20220131181853752.png)
+   ![image-20220131181853752](\Ejercicios-Tema-7-Docker.assets\image-20220131181853752.png)
 
-   ![image-20220131181829426](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\image-20220131181829426.png)
+   ![image-20220131181829426](\Ejercicios-Tema-7-Docker.assets\image-20220131181829426.png)
 
-![image-20220131181901712](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\image-20220131181901712.png)
+![image-20220131181901712](\Ejercicios-Tema-7-Docker.assets\image-20220131181901712.png)
 
 
 
@@ -87,7 +87,7 @@ author: Martin Laviada Brun
    EXPOSE 80
    ```
 
-   ![image-20220131182300083](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\image-20220131182300083.png)
+   ![image-20220131182300083](\Ejercicios-Tema-7-Docker.assets\image-20220131182300083.png)
 
    
 
@@ -97,7 +97,7 @@ author: Martin Laviada Brun
    docker build -t martinlb18/dockerfiletarea:v1 .
    ```
 
-   ![image-20220131182330487](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\image-20220131182330487.png)
+   ![image-20220131182330487](\Ejercicios-Tema-7-Docker.assets\image-20220131182330487.png)
 
 
 
@@ -107,7 +107,7 @@ author: Martin Laviada Brun
    docker login
    ```
 
-   ![login Docker](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\login Docker.PNG)
+   ![login Docker](\Ejercicios-Tema-7-Docker.assets\login Docker.PNG)
 
    
 
@@ -115,11 +115,11 @@ author: Martin Laviada Brun
    docker push martinlb18/dockerfiletarea:v1
    ```
 
-   ![image-20220131182851441](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\image-20220131182851441.png)
+   ![image-20220131182851441](\Ejercicios-Tema-7-Docker.assets\image-20220131182851441.png)
 
    
 
-   ![image-20220131182942382](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicios Tema 7 Martin Laviada\Ejercicios-Tema-7-Docker.assets\image-20220131182942382.png)
+   ![image-20220131182942382](\Ejercicios-Tema-7-Docker.assets\image-20220131182942382.png)
 
 
 
