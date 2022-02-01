@@ -1,0 +1,12 @@
+
+Base de datos
+
+· Pantallazo donde desde un cliente de base de datos (instalado en tu ordenador) se
+pueda observar que hemos podido conectarnos al servidor de base de datos con el
+usuario creado y que se ha creado la base de datos prueba ( show databases ). El
+acceso se debe realizar desde el ordenador que tenéis instalado docker, no hay que
+acceder desde dentro del contenedor, es decir, no usar docker exec .
+
+· Pantallazo donde se comprueba que no se puede borrar la imagen mariadb
+mientras el contenedor bbdd está creado.
+
