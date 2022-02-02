@@ -68,12 +68,12 @@ sudo docker ps --size
 
 ## 2 - Servidor de base de datos
 
-1. Creo una red llamada `nuevaRed` y añado el contenedor que instancia `mariadb` en el puerto 3306, creando una base de datos automáticamente al iniciar llamada `prueba`.
+1. Creo una red llamada nuevaRed y añado el contenedor que instancia mariadb en el puerto 3306, creando una base de datos automáticamente al iniciar llamada prueba.
 
 ```bash
 sudo docker network nuevaRed
-sudo docker run --detach --network nuevaRed --name bbdd --env MARIADB_USER=invitado --env MARIADB_PASSWORD=invitado --env MARIADB_ROOT_PASSWORD=root  mariadb:latest MARIADB_DATABASE=prueba --port 3306
-
+sudo docker run --detach --name bbdd --env MARIADB_USER=invitado
+--env MARIADB_PASSWORD=invitado --env MARIADB_ROOT_PASSWORD=root MARIADB_DATABASE=prueba --port 3336:3306 mariadb:latest
 ```
 
 ![image-20220128092759392](Ejercicios-Tema-7-Docker.assets/image-20220128092759392.png)
