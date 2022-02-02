@@ -14,8 +14,6 @@ author: Martin Laviada Brun, Daniel Díaz González, Víctor Benavides Alonso-Vi
 
 Tareas asignadas:
 
-- Creación y gestión repositorio Git-Hub
-
 - Ejercicio inicial
 
 - Ejercicio 2 - Trabajo con imágenes - Servidor Web
@@ -38,6 +36,8 @@ Tareas asignadas:
 
 Tareas asignadas: 
 
+- Creación y gestión repositorio Git-Hub
+
 - Ejercicio 4 - Redes
 - Documento de presentación
 - Presentación en clase
@@ -46,7 +46,7 @@ Tareas asignadas:
 
 ## 2. Plazos y evolución
 
-![image-20220202172243489](Asignación de tareas y plazos.assets/image-20220202172243489.png)
+![image-20220202174523662](Asignación de tareas y plazos.assets/image-20220202174523662.png)
 
 
 
