@@ -1,2 +1,0 @@
-DockerFile que hay que sacar de Linux
-Los dos últimos apartados

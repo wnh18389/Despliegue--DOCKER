@@ -11,7 +11,7 @@ author: Martin Laviada Brun
 
 ## Bind mount para compartir datos
 
-1. Crea una carpeta llamada `saludo` y dentro de ella crea un fichero llamado `index.html` con el siguiente contenido:
+1. Crea una carpeta llamada `saludo` y dentro de ella crea un fichero llamado `index.html` con el siguiente contenido.
 
    ```html
    <h1>HOLA SOY XXXXXX</h1>

@@ -57,8 +57,17 @@ author: Martin Laviada Brun
 
 4. Bajada de la imagen por otra persona del grupo.
 
+![image-20220202114513158](Ejercicios-Tema-7-Docker.assets/image-20220202114513158.png)
 
+
+
+```bash
+docker pull martinlb18/dockerfiletarea
+```
+
+--Añadir captura de la bajada en consola de linux--
 
 
 
 5. Creación de contenedor y acceso al navegador del sitio.
+

@@ -11,7 +11,7 @@ author: Daniel Díaz González
 
 ## 1 - Servidor web
 
-Arranco un contenedor de la imagen `php:7.4-apache` llamado `web` accesible a través del puerto 8000:
+1. Arranco un contenedor de la imagen `php:7.4-apache` llamado `web` accesible a través del puerto 8000.
 
 ```bash
 sudo docker run --name web -d -p 8000:80 php:7.4-apache
@@ -19,7 +19,9 @@ sudo docker run --name web -d -p 8000:80 php:7.4-apache
 
 ![image-20220117100035672](Ejercicios-Tema-7-Docker.assets/image-20220117100035672.png)
 
-Coloco un fichero `index.html` y `mes.php` en en directorio `Documentos` de la máquina virtual y lo vinculo al directorio raíz del servicio web (`/var/www/html`) del contenedor:
+
+
+2. Coloco un fichero `index.html` y `mes.php` en en directorio `Documentos` de la máquina virtual y lo vinculo al directorio raíz del servicio web (`/var/www/html`) del contenedor.
 
 ```bash
 sudo docker run -d -v /home/dani/Documentos:/var/www/html -p 8000:80 --name web php:7.4-apache
@@ -35,7 +37,7 @@ sudo docker run -d -v /home/dani/Documentos:/var/www/html -p 8000:80 --name web 
 
 
 
-Compruebo el tamaño del contenedor `web`
+3. Compruebo el tamaño del contenedor `web`.
 
 ```bash
 sudo docker system df
@@ -43,11 +45,15 @@ sudo docker system df
 
 <img src="Ejercicios-Tema-7-Docker.assets/image-20220121102736655.png" alt="image-20220121102736655" style="zoom:80%;" />
 
+
+
 ```bash
 sudo docker image ls
 ```
 
 <img src="Ejercicios-Tema-7-Docker.assets/image-20220121102958927.png" alt="image-20220121102958927" style="zoom:80%;" />
+
+
 
 ```bash
 sudo docker ps --size
@@ -58,9 +64,11 @@ sudo docker ps --size
 
 
 
+
+
 ## 2 - Servidor de base de datos
 
-Creo una red llamada `nuevaRed` y añado el contenedor que instancia `mariadb` en el puerto 3306, creando una base de datos automáticamente al iniciar llamada `prueba`
+1. Creo una red llamada `nuevaRed` y añado el contenedor que instancia `mariadb` en el puerto 3306, creando una base de datos automáticamente al iniciar llamada `prueba`.
 
 ```bash
 sudo docker network nuevaRed
