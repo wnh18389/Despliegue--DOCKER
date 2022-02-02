@@ -9,7 +9,7 @@ author: Daniel Díaz González
 
 [TOC]
 
-## 1 - Servidor web
+## 1 - Servidor Web
 
 1. Arranco un contenedor de la imagen `php:7.4-apache` llamado `web` accesible a través del puerto 8000.
 
