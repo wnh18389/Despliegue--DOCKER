@@ -65,9 +65,18 @@ author: Martin Laviada Brun
 docker pull martinlb18/dockerfiletarea
 ```
 
---Añadir captura de la bajada en consola de linux--
+![image-20220202165416180](Ejercicio%205%20-%20Crea%20una%20imagen%20con%20Dockerfile.assets/image-20220202165416180.png)
 
 
 
 5. Creación de contenedor y acceso al navegador del sitio.
 
+   ```bash
+   sudo docker run -d -p 80:80 martinlb18/dockerfiletarea:v1
+   ```
+
+![image-20220202165718942](Ejercicio%205%20-%20Crea%20una%20imagen%20con%20Dockerfile.assets/image-20220202165718942.png)
+
+
+
+![image-20220202165800527](Ejercicio%205%20-%20Crea%20una%20imagen%20con%20Dockerfile.assets/image-20220202165800527.png)
