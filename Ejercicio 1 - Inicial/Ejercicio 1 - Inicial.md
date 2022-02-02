@@ -15,7 +15,7 @@ author: Daniel Díaz González
 sudo docker
 ```
 
-![image-20220117093013115](Ejercicios-Tema-7-Docker.assets\image-20220117093013115.png)
+![image-20220117093013115](Ejercicios-Tema-7-Docker.assets/image-20220117093013115.png)
 
 
 
