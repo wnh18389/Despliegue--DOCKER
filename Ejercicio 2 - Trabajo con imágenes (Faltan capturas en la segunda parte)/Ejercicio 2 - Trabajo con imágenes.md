@@ -81,3 +81,25 @@ sudo docker run --detach --network nuevaRed --name bbdd --env MARIADB_USER=invit
 ![image-20220128092727739](Ejercicios-Tema-7-Docker.assets/image-20220128092727739.png)
 
 ![image-20220128091718404](Ejercicios-Tema-7-Docker.assets/image-20220128091718404.png)
+
+
+2. Hago una instancia de un cliente de base de datos (phpMyAdmin) y conecto para comprobar el acceso al servidor de base de datos con el usuario creado (invitado) y que se ha creado la base de datos `prueba`.
+
+```bash
+sudo docker run --name myadmin -d -e PMA_ARBITRARY=1 --link bbdd:mariadb -p 8080:80 phpmyadmin
+```
+
+![MicrosoftTeams-image](https://user-images.githubusercontent.com/83083348/152231115-ef85a753-c11a-4e3f-9244-6f50ce454e82.png)
+![MicrosoftTeams-image (1)](https://user-images.githubusercontent.com/83083348/152231358-bdbc7c4c-47a9-4087-89e6-93e9af6f0e82.png)
+![MicrosoftTeams-image (2)](https://user-images.githubusercontent.com/83083348/152231411-f60ade8d-0325-4210-bf5c-f58eba9e2dc2.png)
+
+Pantallazo donde se comprueba que no se puede borrar la imagen `mariadb` mientras el contenedor `bbdd` está creado.
+
+```bash
+sudo docker images -a
+sudo docker rmi mariadb
+sudo docker images -a
+```
+
+![MicrosoftTeams-image (3)](https://user-images.githubusercontent.com/83083348/152231616-567bc5ca-0e7d-472c-8e3d-c76f86020dda.png)
+
