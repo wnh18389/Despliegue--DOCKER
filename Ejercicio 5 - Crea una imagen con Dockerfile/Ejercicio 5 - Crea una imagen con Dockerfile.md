@@ -65,7 +65,7 @@ author: Martin Laviada Brun
 docker pull martinlb18/dockerfiletarea
 ```
 
-![image-20220202165416180](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicio 5 - Crea una imagen con Dockerfile\Ejercicio 5 - Crea una imagen con Dockerfile.assets\image-20220202165416180.png)
+![image-20220202165416180](Ejercicios-Tema-7-Docker.assets/image-20220202165416180.png)
 
 
 
@@ -75,8 +75,8 @@ docker pull martinlb18/dockerfiletarea
    sudo docker run -d -p 80:80 martinlb18/dockerfiletarea:v1
    ```
 
-![image-20220202165718942](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicio 5 - Crea una imagen con Dockerfile\Ejercicio 5 - Crea una imagen con Dockerfile.assets\image-20220202165718942.png)
+![image-20220202165718942](Ejercicios-Tema-7-Docker.assets/image-20220202165718942.png)
 
 
 
-![image-20220202165800527](C:\Users\marti\Desktop\gitDocker\Despliegue--DOCKER\Ejercicio 5 - Crea una imagen con Dockerfile\Ejercicio 5 - Crea una imagen con Dockerfile.assets\image-20220202165800527.png)
+![image-20220202165800527](Ejercicios-Tema-7-Docker.assets/image-20220202165800527-16438400310131.png)

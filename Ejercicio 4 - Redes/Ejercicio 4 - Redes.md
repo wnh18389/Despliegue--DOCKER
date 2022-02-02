@@ -67,9 +67,11 @@ author: Víctor Benavides Alonso-Villaverde
    ```
       ```bash
    docker rm -f mariadbserver
-   ```
-![image](https://user-images.githubusercontent.com/83083348/152183430-04e7f900-a720-4924-bc4a-95f8ca28f181.png)
-![image](https://user-images.githubusercontent.com/83083348/152183603-0f0c37b7-7d0e-43de-bccf-cfe7f447a431.png)
+      ```
+   ![image](https://user-images.githubusercontent.com/83083348/152183430-04e7f900-a720-4924-bc4a-95f8ca28f181.png)
+   ![image](https://user-images.githubusercontent.com/83083348/152183603-0f0c37b7-7d0e-43de-bccf-cfe7f447a431.png)
+
+   
 ```bash
 docker network ls
 ```
