@@ -46,9 +46,7 @@ Tareas asignadas:
 
 ## 2. Plazos y evolución
 
-![image-20220202164745113](Asignaci%C3%B3n%20de%20tareas%20y%20plazos.assets/image-20220202164745113.png)
-
-
+![image-20220202172243489](Asignación de tareas y plazos.assets/image-20220202172243489.png)
 
 
 

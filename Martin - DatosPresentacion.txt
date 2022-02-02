@@ -1,0 +1,29 @@
+Las fechas asignadas para todo el equipo han sido desde el día 20 de enero al  2 de febrero, siendo cada uno libre 
+de organizarse como ha querido.
+
+Se considera que el trabajo se ha dividido en 3 partes proporcionales a la cmplejidad de cada parte, 
+por lo que la cantidad de "commits" no representa la carga de trabajo que ha tenido cada miembro.
+Tampoco representan las fechas en las que se ha finalizado cada ejercicio, ya que solo ha sido necesario 
+ponerlo en común a la hora de organizar la información y el repositorio.
+
+Opinion Martín:
+· Mayores dificultades encontradas:
+	Ejercicio 5: 
+	La sintáxis es confusa en muchos aspectos, tanto en los comandos como en lo que es necesario incluir en
+	los nombres de las imágenes para que el sistema funcione.
+	Los reportes de error ofrecidos por el sistema de dockerhub, muchas veces reporta
+	errores genéricos que no dan a entender nada claro.
+
+	Ejercicio 3:
+	El primer contacto con BindMount. 
+
+· Lo mejor del trabajo en grupo:
+	La puesta en común de opiniones y la ayuda del resto de miembros cuando alguno se "atasca".
+
+· Lo peor del trabajo en grupo:
+	Cada uno tiene sus propios horarios, por lo que no siempre se puede hacer lo esperado y hay que adaptarse
+	a los imprevistos lo mejor posible.
+
+
+
+	
